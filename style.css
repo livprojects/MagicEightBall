@@ -151,6 +151,7 @@ h1 {
 
     font-size: 4rem;
     margin: 2rem auto;
+    font-family: 'Aladin', Georgia, cursive;
     
 
 }
@@ -169,10 +170,23 @@ h1 {
 }
 
 #hereGoesTheAnswer {
-    background-color: lightblue;
-    width: 200px;
-    height: 60px;
-    border: red 3px solid;
+    border-radius: 100px;
+    width: 15rem;
+    height: 10rem;
+    position:absolute;
+    top: 60%;
+    left: 40%
 }
+
+#hereGoesTheAnswer p {
+    font-family: 'Aladin', Georgia, cursive;
+    font-size: 2rem;
+    margin: 3rem auto;
+    text-align: center;
+    word-break: wrap;
+    padding: 0.5rem;
+}
+
+
 
 

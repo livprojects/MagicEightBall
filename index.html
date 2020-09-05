@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
         href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAA+NEgAi1qBACuUsgDOmMMAz5vDAJlUigBVJksAbDJlAFEvSwBqlKgA//7/AKJdkwCPRoUAJ4uqAEYoQAC4e60AUCFGAKZsnABmO10ATX+PACV3nADSnMcAWC9MAPPt8gCjZ5cAKkpWAGE4VQBMJkQAYzlYAMulvwBQLkoAaT9hAAMKKQC0eakAt3qsAJJUhACla5sAXkVZANm+1ABOL0UAqW6bAKR5mADeudcA0ZvGAP78/ACrdqEA//r/AG84aABvOmUA//3/AHI4aABvRmUAw5O4AP/Q9wCHWnwAomaWALR/qgCfgpkAzqDEAJJniAD9//0A/v/9AIRTegCCVnoAKIKlACJkggCsgKUAiVKAAEgjPgB6PGwAYi1bACJLZQDZttAAxqC8ALGRqwCQV48A3bzQANXJ0wBXJU0Az6bFAP7//gD///4Ay7PIANCwyABcM1MABBMsAHRHagCIXX4AYytfAIlZhAB8Q3AA5driABlVhACRZocAu42yAPj//wDgvNoA+v//APv//wDUnskA//z/AP7//wDjwN0A////AIhKfACmjaEAc5arAER3hgC1eKoAi1p/AEAySQBjjKAAW0hdAGc8XQBSKUkAVC9JANvK2ABukaYAQSQ7AEIqOwCzfagALUZQAEgvQQBQIkcAk1aGABhVhgBmPF4A37fWAGg8XgDYxdMAvIaxALuJsQBuOGQAWihQAP7+/gD//v4Agld4AIRXeAB0OmoAQCk5AEIkPABFITwAppCjALR3qQCuh6MARSg/AEUqPADEm7oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZ2dnYjwKCgoKCgpfMWdnZ2dnZ2F5a28JanUTGTFnZ2dnZ2dnRw1AfVwUAkFnZ2dnZ2dnCiwgbiVwAFWGCmdnZ2dnZ2eLOR1MJlKOd2dnZ2dnZ4Z6KU8qZmB/SJCSh2dnZ2dbiV46YysVAwRJNk1nZ2dnJ22Dgo8PImwhNDtzZ2dnZ4A+eChTEQskNzhdH2dnZ2cSVhgjBWh8k0ItiH5nZ2dnHhxDWjKKAXQXSjMIZ2dnZy5UMEUvS1dpgT8aZGdnZ2c9dnIHDDWEcVkWkVFnZ2dnZ1CMBlhGG4VODmVnZ2dnZ2dnZ2eNexBECmdnZ2dnZ2dnZ2dnZwoKZ2dnZ2dnZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
         rel="icon" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="./style.css">
     <title>Let me ask you a question</title>
 </head>
@@ -21,13 +23,13 @@
         <form action="" method="get" id="questionSubmitId">
             <input class="questionInput" name="question" placeholder="Ask the crystal ball a question...">
         </form>
-        <div id="hereGoesTheAnswer"></div>
 
 
         <!-- svg goes here -->
 
         <div class="crystalBall">
-            <img src="./crystalball.svg" alt="A crystal ball" height="600px" width="500px" />
+            <div id="hereGoesTheAnswer"></div>
+            <img id="crystalImage" src="./crystalball.svg" alt="A crystal ball" height="600px" width="500px" />
         </div>
 
 

@@ -7,11 +7,13 @@ const app = {
 
     },
 
-    delayMagic: () => {
-        console.log('delayMagic is entered')
-    },
 
     magicWorks: () => {
+
+        event.preventDefault();
+
+        document.getElementById('hereGoesTheAnswer').innerHTML='';
+
 
 
         let randomNumber = Math.floor(Math.random() * 8);
@@ -56,7 +58,13 @@ const app = {
         text.appendChild(node);
 
         const container = document.getElementById('hereGoesTheAnswer');
-        container.appendChild(text);
+        text.classList.add('animate__animated', 'animate__fadeIn');
+
+        setTimeout(() => {
+            container.appendChild(text);
+
+        }, 1000)
+        
 
 
     }
