@@ -137,13 +137,15 @@ button {
 /*Actual styling*/
 
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
 .mainBlock {
-    width: 55rem;
+    width: 80%;
     margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -151,35 +153,41 @@ h1 {
 
     font-size: 4rem;
     margin: 2rem auto;
-    font-family: 'Aladin', Georgia, cursive;
+    font-family: 'Reenie Beanie', Georgia, cursive;
     
 
 }
 
-.crystalBall {
-    width: 37.5rem;
-    margin: 0.5rem auto;
-}
+
 
 .questionInput {
+    font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
-    width: 50rem;
-    margin: 2rem auto;
     border: none;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#questionSubmitId {
+    margin: 1rem auto;
+    width: 100%;
     text-align: center;
 }
 
 #hereGoesTheAnswer {
     border-radius: 100px;
-    width: 15rem;
+    width: 15%;
     height: 10rem;
     position: absolute;
     top: 60%;
-    left: 40%
+    left: 40%;
+    z-index: 45;
+
 }
 
 #hereGoesTheAnswer p {
-    font-family: 'Aladin', Georgia, cursive;
+    font-family: 'Reenie Beanie', Georgia, cursive;
     font-size: 2rem;
     margin: 3rem auto;
     text-align: center;
@@ -187,6 +195,14 @@ h1 {
     padding: 0.5rem;
 }
 
+.crystalBall {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#crystalImage {
+width: 100%;
+}
 
 
 .background {
@@ -198,11 +214,14 @@ h1 {
     background: rgb(212,150,217);
     background: radial-gradient(circle, rgba(212,150,217,0.7406938531425562) 0%, rgba(212,150,217,0) 49%, rgba(212,150,217,0) 100%);
     position: absolute;
-    top: 49%;
-    left: 35%;
-    z-index: 40;
+    left: 280px;
 
 }
+
+
+
+
+
 
 
 

@@ -10,9 +10,8 @@ const app = {
 
     magicWorks: () => {
 
-        event.preventDefault();
+      event.preventDefault();
 
-        document.getElementById('hereGoesTheAnswer').innerHTML='';
 
 
 
@@ -64,6 +63,8 @@ const app = {
             container.appendChild(text);
 
         }, 1000)
+        document.getElementById('hereGoesTheAnswer').value ='';
+
         
 
 
