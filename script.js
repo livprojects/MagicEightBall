@@ -10,10 +10,8 @@ const app = {
 
     magicWorks: () => {
 
-      event.preventDefault();
-
-
-
+        event.preventDefault();
+        document.getElementById('hereGoesTheAnswer').innerHTML ='';
 
         let randomNumber = Math.floor(Math.random() * 8);
         let eightBall = '';
@@ -49,26 +47,24 @@ const app = {
             default:
                 eightBall = `I'm not feeling it today`;
                 break;
+            }
+
+            const text = document.createElement("p"); 
+            console.log(eightBall);
+            const node = document.createTextNode(eightBall);
+            text.appendChild(node);
+
+            const container = document.getElementById('hereGoesTheAnswer');
+            text.classList.add('animate__animated', 'animate__fadeIn');
+
+            setTimeout(() => {
+                container.appendChild(text);
+
+            }, 1000)
+
+
+
         }
-
-        const text = document.createElement("p"); 
-        console.log(eightBall);
-        const node = document.createTextNode(eightBall);
-        text.appendChild(node);
-
-        const container = document.getElementById('hereGoesTheAnswer');
-        text.classList.add('animate__animated', 'animate__fadeIn');
-
-        setTimeout(() => {
-            container.appendChild(text);
-
-        }, 1000)
-        document.getElementById('hereGoesTheAnswer').value ='';
-
-        
-
-
-    }
 }
 
 document.addEventListener('DOMContentLoaded', app.init)

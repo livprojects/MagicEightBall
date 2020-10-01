@@ -138,7 +138,6 @@ button {
 
 body {
     width: 100vw;
-    height: 100vh;
 }
 
 .mainBlock {
@@ -151,7 +150,8 @@ body {
 
 h1 {
 
-    font-size: 4rem;
+    font-size: 3rem;
+    text-align: center;
     margin: 2rem auto;
     font-family: 'Reenie Beanie', Georgia, cursive;
     
@@ -171,19 +171,41 @@ h1 {
 
 #questionSubmitId {
     margin: 1rem auto;
-    width: 100%;
+    width: 80%;
     text-align: center;
 }
 
-#hereGoesTheAnswer {
-    border-radius: 100px;
-    width: 15%;
-    height: 10rem;
-    position: absolute;
-    top: 60%;
-    left: 40%;
-    z-index: 45;
+.crystalBall {
+    width: 60%;
+    margin: 0 auto;
+display: grid;
+}
 
+.crystalBall > * {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#crystalImage {
+
+width: 90%;
+
+
+}
+
+#hereGoesTheAnswer {
+    z-index: 45;
+    visibility: visible;
+    width: 26rem;
+    height: 25rem;
+    border-radius: 200px;
+    opacity: 1;
+    background: rgb(212,150,217);
+    background: radial-gradient(circle, rgba(212,150,217,0.7406938531425562) 0%, rgba(212,150,217,0) 49%, rgba(212,150,217,0) 100%);
+    margin-left: 15rem;
+    margin-top: 7rem;
+
+    padding: 4rem;
 }
 
 #hereGoesTheAnswer p {
@@ -193,30 +215,11 @@ h1 {
     text-align: center;
     word-break: wrap;
     padding: 0.5rem;
-}
-
-.crystalBall {
-    width: 60%;
-    margin: 0 auto;
-}
-
-#crystalImage {
-width: 100%;
+    display: block;
+    width: 70%;
 }
 
 
-.background {
-    visibility: visible;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 200px;
-    opacity: 1;
-    background: rgb(212,150,217);
-    background: radial-gradient(circle, rgba(212,150,217,0.7406938531425562) 0%, rgba(212,150,217,0) 49%, rgba(212,150,217,0) 100%);
-    position: absolute;
-    left: 280px;
-
-}
 
 
 
