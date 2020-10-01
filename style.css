@@ -138,6 +138,15 @@ button {
 
 body {
     width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+footer {
+    width: 30%;
+    font-size: 0.8rem;
+    margin: 2rem auto;
 }
 
 .mainBlock {
