@@ -6,3 +6,5 @@ This Javascript program provides a randow answer to a question the user types in
 In progress : 
 - Rules to check if question input is empty / there's no question mark
 - Responsive (needs a breakpoint at 1200px)
+
+You can see the result at : https://codepen.io/livprojects/full/abNjeqe
