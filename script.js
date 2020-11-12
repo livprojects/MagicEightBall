@@ -12,6 +12,9 @@ const app = {
 
         event.preventDefault();
         document.getElementById('hereGoesTheAnswer').innerHTML ='';
+        document.getElementById('questionInputId').value = '';
+
+
 
         let randomNumber = Math.floor(Math.random() * 8);
         let eightBall = '';
@@ -61,6 +64,8 @@ const app = {
                 container.appendChild(text);
 
             }, 1000)
+
+
 
 
 
