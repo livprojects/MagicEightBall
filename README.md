@@ -1,10 +1,7 @@
-# MagicEightBall
-Who doesn't want to know their future? This magic eight ball will tell your fortune. 
+- __Magic Eight Ball__ 🔸 HTML, CSS (Grid), Javascript vanilla
 
-This Javascript program provides a randow answer to a question the user types in a form on the client side. 
+*Have you ever wanted to know what your fate will be? This is a tribute to magic eight balls.*
 
-In progress : 
-- Rules to check if question input is empty / there's no question mark
-- Responsive (needs a breakpoint at 1200px)
+🔎 *Passes accessible contrast test (checked with [Deque University's aXe tool](https://dequeuniversity.com/color-contrast))*
 
-You can see the result at : https://codepen.io/livprojects/full/abNjeqe
+⏯[Repository](https://github.com/livprojects/MagicEightBall) / [Available online](http://work-your-magic.surge.sh/) and on [CodePen](https://codepen.io/livprojects/pen/abNjeqe)
